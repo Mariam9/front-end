@@ -1,0 +1,405 @@
+@import url(//fonts.googleapis.com/css?family=Raleway:400,700,300);
+
+body {
+	background: white;
+	margin: 0;
+	font-family: Raleway;
+}
+
+p {
+	font-family: Helvetica;
+	color: #848484;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+h3 {
+
+	font-size: 22px;
+}
+
+
+/* Common styles */
+
+
+
+
+.push-left {
+	float: left;
+
+}
+
+.push-right {
+	float: right;
+}
+
+.center-block {
+	margin: 0 auto;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.full-width {
+	width: 1200px;
+}
+
+/* Layout */
+.backside {
+	width: 100%;
+	clear: both;
+}
+
+.wrapper {
+	margin: 0 auto;
+	height: auto;
+}
+
+
+
+
+.clear {
+	clear: both;
+}
+
+
+/* Header */
+.header {
+	background: #e3e3e3 url('img/header-bg.jpg') no-repeat center;
+	height: 700px;
+}
+
+.logo {
+	width: 239px;
+	padding-top: 114px;
+}
+
+.slogan {
+	margin-top: 41px;
+	margin-left: 4px;
+}
+
+.slogan p {
+	font-size: 35px;
+	font-family: Raleway;
+	color: #3f3c3c;
+	
+}
+
+.arrow {
+	margin: 48px auto 0 auto;
+	width: 30px;
+	padding-right: 20px;
+}
+
+
+
+/* Feature block */
+
+.feature-block {
+	height: 496px;
+
+}
+
+.feature-column {
+	width: 375px;
+	height: 100%;
+	
+}
+
+.push-left.feature-column {
+	position: relative;
+	left: 36px;
+	bottom: 3px;
+
+}
+
+.push-right.feature-column {
+	position: relative;
+	right: 31px;
+	bottom: 4px;
+}
+
+.feature-middle-col {
+	margin: 0 375px;
+	height: 100%;
+}
+
+.feature-middle-col img {
+	margin: -299px 0 0 -1px;
+	
+}
+
+.service-item {
+	width: 300px;
+	margin: 56px auto 0 auto;
+
+}
+
+.another-feature {
+	position: relative;
+	bottom: 7px;
+
+}
+
+.first {
+	position: relative;
+	bottom: 3px;
+	left: 2px;
+}
+
+.second {
+	position: relative;
+	bottom: 10px;
+	left: 1px;
+}
+
+/* Get App block */
+.get-app-block {
+	width: 100%;
+	margin: 0 auto;
+	background: #e3e3e3;
+	overflow: auto;
+	height: 425px;
+	
+
+}
+
+
+.get-app-block p {
+	width: 550px;
+	position: relative;
+	top: 31px;
+	left: 10px;
+
+}
+
+.get-app-block h3 {
+	position: relative;
+	top: 33px;
+	left: 11px;
+}
+
+.get-app-column {
+	width: 50%;
+	height: 100%;
+}
+
+
+.platform {
+	width: 68px;
+	height: 68px;
+	float: left;
+	margin-right: 20px;
+	position: relative;
+	left: 12px;
+	top: 44px;
+	background: url('img/sprites/devices-sprite.png') no-repeat 0 0;
+	display: block;
+
+}
+
+.apple {
+    background-position: 0 0;
+}
+
+.apple:hover {
+	background-position: 0 -68px;
+}
+
+.android {
+	background-position: -68px 0;
+}
+
+.android:hover {
+	background-position: -68px -68px;
+}
+
+.windows {
+	background-position: -136px 0;
+}
+
+.windows:hover {
+	background-position: -136px -68px;
+}
+
+#some-video {
+	border-radius: 10px;
+	position: relative;
+	left: 89px;
+	top: 59px;
+	border: 0;
+}
+
+/* Citation */
+.citation {
+	height: 163px;
+}
+
+.citation p {
+	text-align: center;
+	padding-top: 28px;
+	padding-left: 6px;
+	color: black;
+	font-size: 24px;
+	font-family: inherit;
+}
+
+
+.citation h4 {
+	font-family: inherit;
+	font-size: 14px;
+	color: black;
+	text-align: center;
+	margin-top: -4px;
+}
+
+
+	/* Faces */
+.faces {
+	background: #e3e3e3 url('img/faces-bg.jpg') no-repeat center;
+	height: 318px;
+	margin-right: 7px;
+	position: relative;
+	bottom: 8px;
+	left: 1px;
+}
+
+/* Get in touch*/
+.get-in-touch {
+	height: 240px;
+}
+
+.get-in-touch h2 {
+	margin-top: 50px;
+
+}
+
+.socials-block {
+	width: 304px;
+	padding-left: 43px;
+}
+
+.sn {
+	width: 34px;
+	height: 34px;
+	float: left;
+	margin: 21px 11px 50px 0;
+	background: url('img/sprites/socials-sprite.png') no-repeat 0 0;
+	display: block;
+}
+
+.sn.last {
+	margin-right: 0;
+}
+
+.twitter {
+	background-position: 0 0;
+	position: relative;
+	left: 3px;
+}
+
+.twitter:hover {
+	background-position: 0 -34px;
+}
+
+.facebook {
+
+	position: relative;
+	left: 2px;
+	background-position: -34px 0;
+}
+
+.facebook:hover {
+
+	background-position: -34px -34px;
+}
+
+
+.pinterest {
+
+	background-position: -68px 0;
+	position: relative;
+	left: 1px;
+}
+
+.pinterest:hover {
+
+	background-position: -68px -34px;
+}
+
+.gplus {
+
+	background-position: -102px 0;
+}
+
+.gplus:hover {
+
+	background-position: -102px -34px;
+}
+
+.in {
+	background-position: -136px 0;
+	position: relative;
+	right: 1px;
+}
+
+.in:hover {
+
+	background-position: -136px -34px;
+}
+
+.youtube {
+	background-position: -170px 0;
+	position: relative;
+	right: 2px;
+}
+
+.youtube:hover {
+
+	background-position: -170px -34px;
+}
+
+.get-in-touch h3 {
+	position: relative;
+	top: 23px;
+	left: 3px;
+	font-size: 24px;
+}
+
+.get-in-touch p {
+	position: relative;
+	top: 15px;
+	right: 2px;
+}
+
+
+/* footer */
+
+.footer {
+	background-color: #e3e3e3;
+	width: 100%;
+	height: 134px;
+	position: relative;
+	top: 12px;
+}
+
+.link {
+	text-decoration: none;
+	color: grey;
+	margin-left: 30px;
+	font-family: Helvetica;
+	font-size: 16px;
+	position: relative;
+	right: 25px;
+	top: 57px;
+
+}
+
+.link.last {
+	margin-left: 0;
+}
+.link:hover {
+	color: black;
+}
