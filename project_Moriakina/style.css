@@ -1,0 +1,77 @@
+
+body {
+	background: url(img/background.jpg) no-repeat top center;
+	
+}
+
+
+
+header h1, footer p {
+	text-align: center;
+}
+
+
+
+.sign-in {
+	text-align: right;
+}
+
+.sign-in a {
+	color: #3A05F5;
+	text-decoration: none;
+}
+
+.sign-in a:hover {
+	color: #38326C;
+}
+
+
+header, footer { 
+	height: 130px;
+}
+
+.login td {
+	 align: right;
+	  width: 50px;
+}
+
+.wrapper { 
+	overflow: hidden;
+}
+
+.empty-col { 
+	float: left;
+	width: 100px;
+}
+
+.main-content { 
+	background: #E0D2C7; 
+	opacity: 0.7;
+    margin: 0 200px 0 200px;
+    height: 650px;
+}
+
+.right {
+	text-align: right;
+}
+
+.storage{
+	
+	width: 900px;
+	border-collapse: collapse;
+	margin: auto;
+
+}
+
+.storage td, th {
+		border: solid gray 1px;
+		padding: 3px;
+
+}
+
+
+.statistics { 
+	width: 150px; 
+	float: right;
+}
+

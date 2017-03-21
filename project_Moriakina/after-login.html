@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="shortcut icon" type="img/x-icon" href="img/favicon.ico">
+		<title>File Storage v 0.01</title>
+	</head>
+	<body>
+		<header>
+			<h1>File Storage</h1>
+			<hr>
+			<div class="sign-in"><p>You logged in as Anonymous <a href="#" target="_blank">Log Out</a><hr></p></div>
+		</header>
+  			<div class="wrapper">
+   				<div class="empty-col">
+            <p><b>Can Be Downloaded:</b></p>
+            <p>ZIP (to 10 Mb);</p>
+            <p>DOCX (to 30 Mb);</p>
+            <p>PPTX (to 60 Mb);</p>
+            <p>20 Mb from 80 Mb</p>
+            <p><b>Used:</b></p>
+            <p>Size/user: 90 Mb</p>   
+          </div>
+   				<div class="statistics">
+   					<p><b>Statistics:</b></p>
+   					<p>Users: 123</p>
+   					<p>Files: 1234</p>
+   					<p>Size: 5678 Mb</p>
+   					<p>Size/user: 90 Mb</p>
+   				</div>
+   				<div class="main-content">
+              <table class="storage">
+                <tr> 
+                  <th>File</th>
+                  <th>Size (Kb)</th>
+                  <th>Date and Time</th>
+                  <th>Delete</th>
+                </tr>
+                <tr> 
+                  <td><a href="#">Archive1.zip</a></td>
+                  <td>150.05</td>
+                  <td>20-03-2017 10:50</td>
+                  <td><a href="#">Delete</a></td>
+                </tr>
+                <tr> 
+                  <td><a href="#">Archive2.zip</a></td>
+                  <td>50.43</td>
+                  <td>21-03-2017 1:32</td>
+                  <td><a href="#">Delete</a></td>
+                </tr>
+              </table>
+              <fieldset>
+              <table class="upload">
+                <tr> 
+                  <td><form enctype="multipart/form-data" method="post">
+                    <p><b>Upload the File:</b></p>
+                    <p><input type="file" name="photo" multiple accept="image/*,image/jpeg">
+                    </form></td>
+                </tr>
+                <tr> 
+                  <td><input type="submit" value="Choose"></p></td>
+                </tr>
+              </table>
+            </fieldset>
+            <fieldset>
+              <table class="server">
+                <tr> 
+                    <td><p><b>Request to the Remote Server:</b></p></td>
+                    <td><p><input type="text" name="text"></p></td>
+                </tr>
+                <tr> 
+                  <td><b>Add to the Storage:</b></td>
+                  <td><input type="checkbox" name="server"></td>
+                </tr>
+                <tr> 
+                  <td><input type="submit" value="Request"></p></td>
+                </tr>
+              </table>
+            </fieldset>
+   				</div>
+  			</div>
+  		<footer>
+  			<hr>
+			<p>&#169 2017, EPAM Front-End Training</p>
+		</footer>
+	</body>
+</html>
