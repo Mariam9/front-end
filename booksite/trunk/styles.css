@@ -1,0 +1,418 @@
+/* font-family: "ProximaNovaRegular"; */
+@font-face {
+    font-family: "ProximaNovaRegular";
+    src: url("fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+    src: url("fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+    url("fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ProximaNovaBold"; */
+@font-face {
+    font-family: "ProximaNovaBold";
+    src: url("fonts/ProximaNovaBold/ProximaNovaBold.eot");
+    src: url("fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
+    url("fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
+    url("fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ProximaNovaBlack"; */
+@font-face {
+    font-family: "ProximaNovaBlack";
+    src: url("fonts/ProximaNovaBlack/ProximaNovaBlack.eot");
+    src: url("fonts/ProximaNovaBlack/ProximaNovaBlack.eot?#iefix")format("embedded-opentype"),
+    url("fonts/ProximaNovaBlack/ProximaNovaBlack.woff") format("woff"),
+    url("fonts/ProximaNovaBlack/ProximaNovaBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+	background: white;
+	margin: 0;
+	min-width: 660px;
+	font-family: ProximaNovaRegular;
+}
+
+p {
+	color: #6f7d95;
+	font-size: 12px;
+	line-height: 1.5;
+}
+a {
+	text-decoration: none;
+	font-size: .8125em;
+	color: #78829d;
+}
+
+a:hover {
+	color: white;
+}
+
+.center-block {
+	margin: 0 auto;
+}
+.right-text {
+	text-align: right;
+}
+
+.left-text {
+	text-align: left;
+}
+
+.center-text {
+	margin: 0 auto;
+}
+
+.push-left {
+	float: left;
+}
+
+
+.push-right {
+	float: right;
+}
+
+#header {
+	height: 45px;
+	background: #2f3649;
+}
+
+.logo {
+	width: 190px;
+}
+
+.profile-block {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.help-block {
+	margin: 12px 12px 0 0;
+}
+
+.divider {
+	margin-left: 10px;
+}
+.user-online {
+	background: #15a4fa;
+	width: 157px;
+	height: 45px;
+}
+
+.divider {
+	width: 12px;
+	display: inline-block;
+}
+
+.user-online a {
+	color: white;
+
+}
+
+.avatar {
+	float: left;
+	margin: 6px;
+
+}
+
+.round {
+	border-radius: 100px;
+	box-shadow: 0 0 0 3px white;
+}
+
+.arrow {
+	float: right;
+	cursor: pointer;
+	margin: 15px;
+	}
+
+.container {
+	margin: 0 auto;
+}
+
+#sidebar {
+	float: left;
+	width: 200px;
+	margin-right: -200px;
+	background: #1f2638;
+	position: relative;
+}
+
+
+.add-book button {
+	width: 160px;
+	height: 44px;
+	border-radius: 5px;
+	background: #f2795a;
+	color: white;
+	vertical-align: middle;
+	position: relative;
+	margin-top: 40px;
+	margin-left: 15px;
+	border: none;
+
+}
+
+.add-book button:hover {
+	opacity: 0.9;
+}
+
+.statistic ul li {
+	margin: 14px;
+}
+.nav-menu-item > i {
+	background-image: url("img/main-nav-sprites.png");
+	display: inline-block;
+	background-repeat: no-repeat;
+	margin-right: 8px;
+	margin-top: 10px;
+	width: 13px;
+	height: 13px;
+}
+
+
+.icon-reading {
+	background-position: 0 0;
+}
+
+.nav-menu-item:hover > .icon-reading {
+	background-position: 0 -13px;
+}
+
+.icon-browse {
+	background-position: -13px 0;
+}
+
+.nav-menu-item:hover > .icon-browse {
+	background-position: -13px -13px;
+}
+
+.icon-buy {
+	background-position: -26px 0;
+}
+
+.nav-menu-item:hover > .icon-buy {
+	background-position: -26px -13px;
+}
+
+.icon-favorite {
+	background-position: -38px 0;
+}
+
+.nav-menu-item:hover > .icon-favorite {
+	background-position: -38px -13px;
+}
+
+.icon-wish {
+	background-position: -51px 0;
+}
+
+.nav-menu-item:hover > .icon-wish {
+	background-position: -51px -13px;
+}
+
+.icon-history {
+	background-position: -65px 0;
+}
+
+.nav-menu-item:hover > .icon-history {
+	background-position: -65px -13px;
+}
+
+
+
+.genre ul {
+	list-style: disc inside none;
+	padding: 0;
+	margin: 0;
+}
+
+.genre li {
+	padding: 10px 0 15px 20px;
+}
+
+.genre li.must-read {
+	color: #e64c66;
+}
+
+.genre li.rest-list {
+	color: #ffab00;
+}
+
+.genre li.classic {
+	color: #00bfdd;
+}
+
+.genre li.non-fiction {
+	color: #7874cf;
+}
+
+
+.added {
+	height: 310px;
+	margin-top: 40px;
+}
+
+.added p {
+	padding: 15px 15px 15px 45px;
+	display: block;
+}
+
+.added a {
+	color: #97b3ce;
+}
+
+.added a:hover {
+	color: white;
+}
+
+#content {
+	float: left;
+	border-left: 200px solid #1f2638;
+}
+
+.available-books {
+	height: 79px;
+	background: #eef1f8;
+}
+
+.available-books p {
+	margin: 0;
+	font-size: 22px;
+	padding: 15px;
+}
+
+.search-panel {
+	height: 46px;
+	background: #eef1f8;
+	position: fixed;
+	right: 0;
+	left: 200px;
+	min-width: 460px;
+}
+
+.rate {
+	float: left;	
+}
+
+.filter {
+	padding: 8px;
+}
+
+.filter:hover {
+	background: #97b3ce;
+	border-radius: 20px;
+}
+
+.search-field {
+	float: right;
+	border: 1px solid #c7cddb;	
+	border-radius: 20px;
+	width: 400px;
+	min-height: 33px;
+	background: white;
+}
+
+input[type="search"] {
+	width: 360px;
+	padding: 10px 0;
+	border: none;
+	margin-left: 12px;
+	outline: none;
+}
+
+input[type="submit"] {
+	height: 21px;
+	width: 13px;
+	border: none;
+	background: url(img/search.png) no-repeat 0 8px;
+	padding: 4px 0;
+	outline: none;
+	cursor: pointer;
+	
+}
+
+.search-result {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.search-result ul li {
+	float: left;
+	margin: 30px 0 0 21px;
+	
+}
+
+.search-result ul li a img {
+	width: 200px;
+	height: 275px;
+}
+
+li h3 a {
+	font-size: 16px;
+	color: #50586d;
+}
+
+.search-result li a:hover {
+	color: black;
+}
+
+.star-rate {
+	background: url('img/empty-star.png') repeat-x;
+	width: 69px;
+	height: 30px;
+}
+
+.real-rate {
+	background: url('img/full-star.png');
+	height: 13px;
+}
+
+.five-stars {
+	width: 100%;
+}
+
+.four-and-half-stars {
+	width: 90%
+}
+
+.four-stars {
+	width: 80%;
+}
+
+.three-and-half-stars {
+	width: 70%;
+}
+
+.clear {
+	clear: both;
+}
+
+#footer {
+	height: 46px;
+	background: #181e2c;
+}
+
+.icons {
+	background-color: #1f2637;
+	display: inline-block;
+	cursor: pointer;
+	width: 33px;
+	height: 30px;
+	padding-left: 22px;
+	padding-top: 15px;
+}
+
+.icons:hover {
+	background-color: #15a4fa;
+}
+
+
+
+
+
+
